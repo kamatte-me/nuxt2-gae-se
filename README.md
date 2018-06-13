@@ -7,7 +7,7 @@ Nuxt.js * GAE Standard Environment
 
 ## Require
 
-* Node.js v8.11.1
+* Node.js v8.x
 * npm or Yarn
 * Google Cloud SDK
 
