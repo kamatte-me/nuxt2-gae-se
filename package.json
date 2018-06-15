@@ -8,7 +8,7 @@
     "dev": "node server.js",
     "build": "nuxt build",
     "start": "NODE_ENV=production node server.js",
-    "deploy": "gcloud app deploy",
+    "deploy": "npm run build && gcloud app deploy",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
