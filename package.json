@@ -11,10 +11,7 @@
     "deploy": "npm run build && gcloud app deploy",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint",
-    "system-test": "repo-tools test app",
-    "test": "npm run system-test",
-    "e2e-test": "repo-tools test deploy"
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "express": "^4.16.3",
@@ -26,14 +23,5 @@
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0"
-  },
-  "cloud-repo-tools": {
-    "test": {
-      "app": {
-        "msg": "Hello, Nuxt.js * GAE/SE!"
-      }
-    },
-    "requiresKeyFile": true,
-    "requiresProjectId": true
   }
 }
