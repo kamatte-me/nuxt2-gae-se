@@ -1,11 +1,21 @@
-# Nuxt.js on Google App Engine Standard Environment
+# Nuxt.js v2 on Google App Engine Standard Environment
 
-Nuxt.js * GAE Standard Environment
+Nuxt.js v2 * GAE/SE = SPA * SSR * Serverless
+
 
 ## DEMO
-[https://nuxt-gae-se.appspot.com/](https://nuxt-gae-se.appspot.com/)
+[https://nuxt2-gae-se.appspot.com/](https://nuxt2-gae-se.appspot.com/)
 
-## Require
+
+## 👻Description
+
+### Features
+
+* SPA (Single Page Application)
+* SSR (Sever Side Rendering)
+* Serverless (GAE/SE)
+
+## Requires
 
 * Node.js v8.x
 * npm or Yarn
@@ -14,7 +24,7 @@ Nuxt.js * GAE Standard Environment
 Please read [Quickstart for Node.js in the App Engine Standard Environment](https://cloud.google.com/appengine/docs/standard/nodejs/quickstart) and setup.
 
 
-## Build Setup
+## Start 👶
 
 ```bash
 # install dependencies
@@ -29,7 +39,7 @@ $ npm run start
 ```
 
 
-## Deploy🚀
+## Deploy 🚀
 
 ```bash
 # Build
@@ -38,3 +48,5 @@ $ npm run build
 # Deploy to GAE!
 $ npm run deploy
 ```
+
+Let's enjoy!!!

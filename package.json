@@ -1,27 +1,30 @@
 {
-  "name": "nuxt-gae-se",
+  "name": "nuxt2-gae-se",
   "version": "1.0.0",
-  "description": "Nuxt.js * GAE Standard Environment",
-  "author": "kamatte <uydasan@gmail.com>",
+  "description": "Nuxt.js v2 on GAE/SE",
+  "author": "kamatte",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "NODE_ENV=production node server.js",
-    "deploy": "npm run build && gcloud app deploy",
+    "start": "nuxt start",
     "generate": "nuxt generate",
+    "deploy": "gcloud app deploy",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "express": "^4.16.3",
-    "nuxt": "^1.0.0"
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "nodemon": "^1.11.0",
     "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.14.3"
   }
 }
