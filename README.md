@@ -17,7 +17,7 @@ Nuxt.js v2 * GAE/SE = SPA * SSR * Serverless
 
 ## Requires
 
-* Node.js v8.x
+* Node.js v10.x
 * npm or Yarn
 * Google Cloud SDK
 

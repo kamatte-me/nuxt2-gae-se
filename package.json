@@ -4,6 +4,9 @@
   "description": "Nuxt.js v2 on GAE/SE",
   "author": "kamatte",
   "private": true,
+  "engines": {
+    "node": "10.x.x"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
